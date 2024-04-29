@@ -1,0 +1,38 @@
+{
+  "name": "url-shortner-app",
+  "version": "1.0.0",
+  "description": "This project contains URL apis",
+  "main": "server.js",
+  "scripts": {
+    "build":"npx tsc",
+    "dev":"nodemon",
+    "start": "npx tsc && nodemon dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remymali/URL-Shortner.git"
+  },
+  "author": "Remy.M.Ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/remymali/URL-Shortner/issues"
+  },
+  "homepage": "https://github.com/remymali/URL-Shortner#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.2",
+    "nanoid": "^3.0.0",
+    "nodemon": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^20.12.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
